@@ -2,20 +2,23 @@
 
   @mixin clearfix{};
 
-  &--gutters {
-    margin-right: -65px;
-  }
-
-  &--gutters-large {
-    margin-right: -100 px;
-  }
-
-  &--gutters > div {
-    padding-right: 65px;
-  }
-
-  &--gutters-large > div {
-    padding-right: 100px;
+  @mixin atSmall {
+    
+    &--gutters {
+      margin-right: -65px;
+    }
+    
+    &--gutters-large {
+      margin-right: -100 px;
+    }
+    
+    &--gutters > div {
+      padding-right: 65px;
+    }
+    
+    &--gutters-large > div {
+      padding-right: 100px;
+    }
   }
 
   &__b-margin-until-medium {
