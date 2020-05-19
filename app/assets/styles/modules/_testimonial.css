@@ -1,5 +1,5 @@
 .testimonial {
-  background-color: $seeThroughWhite;
+  background-color: rgba(#fff, 0.8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
 
@@ -14,7 +14,7 @@
 
   &__photo {
     border-radius: 80px;
-    border: 6px solid $seeThroughWhite;
+    border: 6px solid rgba(#fff, 0.8);
     overflow: hidden;
     width: 160px;
     height: 160px;
