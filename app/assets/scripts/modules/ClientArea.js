@@ -6,12 +6,12 @@ class ClientArea {
     this.form = document.querySelector(".client-area__form");
     this.input = document.querySelector(".client-area__input");
     this.contentArea = document.querySelector(".client-area__content-area");
-    events();
+    this.events();
   }
 
   events() {
-    this.form.addEventListener("submit", event => {
-      event.preventDefault();
+    this.form.addEventListener("submit", e => {
+      e.preventDefault();
       this.sendRequest();
     })
   }
